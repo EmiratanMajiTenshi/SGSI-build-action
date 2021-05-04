@@ -7,12 +7,12 @@ on:
     types: [started]
     
 env:              
-  ROM_URL: 'https://dl.google.com/developers/android/sc/images/ota/redfin-ota-spp2.210219.008-3d61e529.zip'
+  ROM_URL: 'https://download.meizu.com/Firmware/Flyme/16s/9.21.4.29/cn_daily/20210429002018/c0aa61fe/update.zip'
   ZIP_NAME: 'update.zip'
-  OS_TYPE: 'Pixel'
-  BUILD_TYPE: 'ab'
-  REPACK_NAME: 'SGSI.zip'
-  VERSION: '12'
+  OS_TYPE: 'Flyme'
+  BUILD_TYPE: 'a-only'
+  REPACK_NAME: 'GaNTEAM_FLYME9_10_SGSI.zip'
+  VERSION: '11'
   upload_WeTransfer: 'true'
   upload_action-gh-release: 'false'
   SETUP: 'true'
