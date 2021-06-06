@@ -7,12 +7,12 @@ on:
     types: [started]
     
 env:              
-  ROM_URL: 'https://download.meizu.com/Firmware/Flyme/16s/9.21.4.29/cn_daily/20210429002018/c0aa61fe/update.zip'
-  ZIP_NAME: 'update.zip'
-  OS_TYPE: 'Flyme'
-  BUILD_TYPE: 'a-only'
-  REPACK_NAME: 'GT_F9_10_SGSI.zip'
-  VERSION: '10'
+  ROM_URL: 'https://bigota.d.miui.com/21.6.2/miui_PICASSO_21.6.2_ca4514b86b_11.0.zip'
+  ZIP_NAME: 'miui_PICASSO_21.6.2_ca4514b86b_11.0.zip'
+  OS_TYPE: 'MIUI'
+  BUILD_TYPE: 'ab'
+  REPACK_NAME: 'SGSI.zip'
+  VERSION: '11'
   upload_WeTransfer: 'true'
   upload_action-gh-release: 'false'
   SETUP: 'true'
