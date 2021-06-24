@@ -10,7 +10,7 @@ env:
   ROM_URL: 'https://bigota.d.miui.com/V12.0.1.0.PDECNXM/miui_MIMIX2_V12.0.1.0.PDECNXM_ba60e4bd60_9.0.zip'
   ZIP_NAME: 'miui_MIMIX2_V12.0.1.0.PDECNXM_ba60e4bd60_9.0.zip'
   OS_TYPE: 'MIUI'
-  BUILD_TYPE: 'a-only'
+  BUILD_TYPE: 'ab'
   REPACK_NAME: 'SGSI.zip'
   VERSION: '9'
   upload_WeTransfer: 'true'
