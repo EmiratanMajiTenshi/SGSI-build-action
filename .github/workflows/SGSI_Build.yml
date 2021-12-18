@@ -7,14 +7,14 @@ on:
     types: [started]
     
 env:              
-  ROM_URL: 'https://media-gdgz-person.gdoss.xstore.ctyun.cn/PERSONCLOUD/0cfd64f9-558f-4023-96b3-e7294c01a36d.zip?x-amz-CLIENTTYPEIN=UNKNOWN&AWSAccessKeyId=B12spNbFIkHcJjk5MvKN&x-amz-UID=810369093&x-amz-APPID=828221&response-content-disposition=attachment%3Bfilename%3D%22Sky_Mi8_12.5.1Stable_10%2889A09722AA%29.zip%22&x-amz-CLIENTNETWORK=UNKNOWN&x-amz-CLOUDTYPEIN=PERSON&x-amz-limit=rate%3D10240%2Cconcurrency%3D10&Signature=LxBmQHRL7QV5McBc0wXVY52eC2c%3D&x-amz-SHID=114461615160&Expires=1624509212&x-amz-FSIZE=2123511888&x-amz-UFID=31411113499928292'
-  ZIP_NAME: 'Sky_Mi8_12.5.1Stable_10(89A09722AA).zip'
-  OS_TYPE: 'MIUI'
+  ROM_URL: 'https://firmware.meizu.com/Firmware/Flyme/meizu18X/9.2.3.2/cn/20211202045911/25302566/update.zip2spNbFIkHcJjk5MvKN&x-amz-UID=810369093&x-amz-APPID=828221&response-content-disposition=attachment%3Bfilename%3D%22Sky_Mi8_12.5.1Stable_10%2889A09722AA%29.zip%22&x-amz-CLIENTNETWORK=UNKNOWN&x-amz-CLOUDTYPEIN=PERSON&x-amz-limit=rate%3D10240%2Cconcurrency%3D10&Signature=LxBmQHRL7QV5McBc0wXVY52eC2c%3D&x-amz-SHID=114461615160&Expires=1624509212&x-amz-FSIZE=2123511888&x-amz-UFID=31411113499928292'
+  ZIP_NAME: 'update.zip'
+  OS_TYPE: 'Flyme'
   BUILD_TYPE: 'ab'
   REPACK_NAME: 'SGSI.zip'
-  VERSION: '10'
-  upload_WeTransfer: 'true'
-  upload_action-gh-release: 'false'
+  VERSION: '11'
+  upload_WeTransfer: 'false'
+  upload_action-gh-release: 'true'
   SETUP: 'true'
   
 jobs:
